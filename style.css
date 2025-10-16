@@ -1,0 +1,39 @@
+html {
+    font-family: Garamond;
+    color: white;
+}
+
+header {
+    background-color: indigo;
+    text-align: center;
+    padding: 2px;
+}
+
+main {
+    display: flex;
+}
+
+#left, #right {
+    background-color: indigo;
+    height: 600px;
+    width: 20%;
+}
+
+#mid {
+    background-color: black;
+    height: 600px;
+    overflow: auto;
+    width: 60%;
+}
+
+footer {
+    background-color: indigo;
+    height: 150px;
+}
+
+.element {
+    background-color: tomato;    
+    border-radius: 50%;         
+    padding: 5px;
+}
+

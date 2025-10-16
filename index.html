@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gry komputerowe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    
+    <main>
+        <section id="left">
+            <h3>Top 5 gier w tym miesiącu</h3>
+            <ul>
+                <li>Mag <span class="element">357</span></li><br>
+                <li>Księżniczka Persji <span class="element">293</span></li><br>
+                <li>Zamczysko <span class="element">200</span></li><br>
+                <li>Kalipso <span class="element">125</span></li><br>
+                <li>Wyprawa na księżyc <span class="element">103</span></li><br>
+            </ul>
+
+            <h3>Nasz sklep</h3>
+            <a href="#">Tu kupisz gry</a>
+
+            <h3>Stronę wykonał</h3>
+            <p>0000000009</p>
+        </section>
+
+        <section id="mid">
+            <h1>Puste XD</h1>
+        </section>
+
+        <section id="right">
+            <h3>Dodaj nową grę</h3>
+
+        <form action="" method="POST" enctype="multipart/form-data">
+            <label for="nazwa">Nazwa</label>
+            <input type="text" id="nazwa" name="nazwa" required><br><br>
+
+            <label for="opis">Opis</label>
+            <textarea id="opis" name="opis" rows="4" required></textarea><br><br>
+
+            <label for="cena">Cena</label>
+            <input type="number" id="cena" name="cena" required><br><br>
+
+            <label for="zdjecie">Zdjęcie</label>
+            <input type="file" id="zdjecie" name="zdjecie" accept="image/*" required><br><br>
+
+        <input type="submit" value="DODAJ">
+    </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <form action="" method="POST">
+            <label for="opis">Opis:</label>
+            <textarea id="opis" name="opis" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Pokaż opis">
+        </form>
+
+    </footer>
+</body>
+</html>
